@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="a" onclick="Play()">Play</button>
+<script>
+    function Play() {
+        let x = parseInt(prompt("Nhap 1 so tu 1 den 10"));
+        let y =Math.floor(Math.random() * 10);
+        if(x===y){
+            alert("Chuc Mung");
+
+        }else if(x>y){
+            alert("Lon Hon");
+
+        }else {
+            alert("Nho Hon");
+        }
+        console.log(y);
+
+    }
+</script>
+
+</body>
+</html>
